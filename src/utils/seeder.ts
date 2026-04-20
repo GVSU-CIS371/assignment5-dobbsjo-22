@@ -41,9 +41,9 @@ export const seedDatabase = async () => {
         console.log(`Added to ${collection.name}: ${item.id}`);
       }
     }
-    alert("All collections seeded successfully!");
+    // alert("All collections seeded successfully!");
   } catch (error) {
     console.error("Error seeding database: ", error);
-    alert("Check console for errors. Make sure your Firestore rules allow writes!");
+    // alert("Check console for errors. Make sure your Firestore rules allow writes!");
   }
 };

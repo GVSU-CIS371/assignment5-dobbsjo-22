@@ -110,7 +110,7 @@ const handleSignOut = async () => {
 
 const handleMakeBeverage = async () => {
   const message = await beverageStore.makeBeverage();
-  alert(message);
+  // alert(message);
 };
 </script>
 
